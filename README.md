@@ -6,9 +6,10 @@ Put the `.bash_functions` file in your home directory.
 
 Add the following to your `~/.bashrc` file;
 
-```if [ -f ~/.bash_functions ]; then
+```
+if [ -f ~/.bash_functions ]; then
 	. ~/.bash_functions
-	fi
+fi
 ```
 
 Either run `source ~/.bashrc` or logout and log back in.
